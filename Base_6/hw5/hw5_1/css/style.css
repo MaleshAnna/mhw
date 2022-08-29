@@ -1,0 +1,28 @@
+h1 {
+  color: blue;
+  margin-left: 100px;
+}
+.all-news {
+  color: green;
+  text-align: center;
+}
+.first,
+.first a {
+  color: red;
+}
+.yellow,
+.yellow a {
+  color: orange;
+}
+
+.gray,
+.gray a {
+  color: gray;
+}
+.light-blue,
+.light-blue a {
+  color: lightblue;
+}
+.menu {
+  margin-left: 60px;
+}

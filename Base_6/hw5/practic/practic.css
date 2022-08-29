@@ -1,0 +1,39 @@
+p {
+  background-color: gray;
+}
+p .code {
+  background-color: yellow;
+}
+.note {
+  background-color: yellow;
+}
+.note .code {
+  background-color: white;
+  color: black;
+}
+
+section > div {
+  border: solid red;
+}
+
+table {
+  background-color: rgb(31, 31, 105);
+  border: 2mm solid rgb(40, 40, 105);
+}
+
+.first + tr {
+  background-color: red;
+}
+.second tr:nth-of-type(odd) {
+  background-color: red;
+}
+.third tr:nth-of-type(even) {
+  background-color: red;
+}
+.odd td:nth-of-type(odd),
+.even td:nth-of-type(even) {
+  background-color: red;
+}
+.table-sec {
+  display: flex;
+}

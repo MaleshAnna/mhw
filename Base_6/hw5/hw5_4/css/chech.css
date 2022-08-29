@@ -1,0 +1,9 @@
+.odd td:nth-of-type(odd),
+.even td:nth-of-type(even) {
+  background-color: green;
+}
+table {
+  border: 2px solid green;
+  width: 500px;
+  height: 500px;
+}

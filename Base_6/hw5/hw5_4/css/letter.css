@@ -1,0 +1,23 @@
+p::first-letter {
+  color: red;
+}
+#green {
+  color: green;
+}
+
+tr td:nth-of-type(1),
+td:nth-of-type(5) {
+  background-color: red;
+}
+tr td:nth-of-type(2),
+td:nth-of-type(6) {
+  background-color: violet;
+}
+tr td:nth-of-type(3),
+td:nth-of-type(7) {
+  background-color: yellow;
+}
+tr td:nth-of-type(4),
+td:nth-of-type(8) {
+  background-color: lightgreen;
+}

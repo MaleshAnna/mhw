@@ -1,0 +1,8 @@
+thead {
+  background-color: rgb(27, 131, 86);
+  color: white;
+  overflow-y: scroll;
+}
+tbody > tr:nth-of-type(odd) {
+  background-color: pink;
+}
